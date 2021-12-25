@@ -1,0 +1,108 @@
+.containter{
+	width: 100%;
+	height: 100px;
+	background-image: linear-gradient(#FF1493,#FFAEB9); 
+
+}
+.left{
+	float: left;
+}
+#logo{
+	width: 100%;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.infor{
+	float: right;
+}
+.infor  ul li{
+	
+	display: inline-table;
+	padding: 30px;
+}
+.infor  ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	
+}
+.infor  ul li a img{
+	vertical-align: middle;}
+.name{
+	background-color: white;
+	color:black;
+}
+
+.btn-register{
+	width: 100px;
+	height: 40px;
+	border: 2px;
+	background-color: rgb(68, 41, 223);
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+
+.noidung {
+	/*background: lightpink;*/
+	/*text-align: center;*/
+	padding-top: 50px;
+}
+.video {
+	width: 200px;
+	margin-left: 300px;
+
+}
+.muc1 {
+	margin-left: 200px;
+	font-size: 25px;
+
+}
+.muc2 {
+	margin-left: 200px;
+	font-size: 25px;
+}
+.muc0 {
+	text-align: center;
+	font-size: 30px;
+	background: pink;
+}
+.tracnghiem{
+	text-align: center;
+}
+/*thong tin cuoi trang*/
+#botton{
+	width: 100%;
+	margin-top: 200px;
+	background-color: #242A37;
+	min-height: 100px;
+}
+#intro{
+	padding: 20px;
+	color:white;
+	text-align: center;
+	font-size: 30px;
+}
+#adress{
+	padding: 20px;
+	color:white;
+	font-size: 20px;
+}
+#phone {
+	padding: 10px;
+	color:white;
+	font-size: 20px;
+}
+#mail {
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+}
+.cb{
+	background-color: pink;
+}

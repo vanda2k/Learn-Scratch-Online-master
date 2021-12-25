@@ -1,0 +1,51 @@
+.Khoahoc{
+	background-image: url("../IMG/bg.png");
+	width: 100%;
+	height: 100%;
+}
+.containter{
+	margin: -10px;
+	width: 100%;
+	height: 100px;
+	background-image: linear-gradient(#FF1493,#FFAEB9); 
+
+}
+
+
+
+.infor  ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}
+.see-pro p {
+	text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+/*thong tin cuoi trang*/
+#botton{
+	width: 100%;
+	margin-top: 900px;
+	background-color: #242A37;
+	min-height: 100px;
+}
+#intro{
+	padding: 20px;
+	color:white;
+	text-align: center;
+	font-size: 30px;
+}
+#adress{
+	padding: 20px;
+	color:white;
+	font-size: 20px;
+}
+#phone {
+	padding: 10px;
+	color:white;
+	font-size: 20px;
+}
+#mail {
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+}

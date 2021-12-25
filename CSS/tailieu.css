@@ -1,0 +1,262 @@
+.containter{
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-image: linear-gradient(#FACD68, #FC76C3); 
+
+}
+.trangchu{
+	background-image: url(../IMG/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: -10px;
+	height: 100%;
+}
+.left{
+	float: left;
+}
+#logo{
+	width: 100%;
+	height: 90px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.infor{
+	float: right;
+}
+.infor  ul li{
+	
+	display: inline-table;
+	padding: 12px;
+}
+.infor  ul li a{
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: bold;
+	color: #A92B45;
+	text-shadow: 1px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.infor  ul li a img{
+	vertical-align: middle;}
+.name{
+	background-color: white;
+	color:black;
+}
+#menu ul{
+	list-style-type: none;
+	background: #FF6699;
+	text-align: center;
+}
+#menu ul li{
+	color: black;
+	display: inline-table;
+	width: 150px;
+	height: 40px;
+	border-right: 1px solid;
+	line-height: 40px;
+	position: relative;
+}
+
+#menu{
+	position: fixed;
+	margin-top: 80px;
+	width: 100%;
+
+}
+
+#menu ul li a{
+	color:white;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#menu ul li a:hover  {
+	/*border-bottom-color: black;*/
+	color: black;
+	font-size: 15px;
+	transition: 0.3s;
+}
+#menu ul li >.sub-menu{
+	display: none;
+	position: absolute;
+}
+#menu ul li ul.sub-menu{
+   display: block;
+   position: absolute;
+   background-color: #FFAEBD;
+ }
+#menu ul li:hover>.sub-menu{
+   display: block;
+ }
+
+/*menu cấp 2*/
+#menu ul li ul.sub-menu{
+	display: none;
+}
+#menu ul li ul {
+	display: none;
+}
+#menu ul li ul li:hover>.sub-menu1{
+   display:	inline-table;
+   position: absolute;
+   margin-left:50px;
+ }
+#menu ul li ul li:hover > sub-menu1{
+	display: block;
+}
+#menu ul ul ul{
+	left: 100px;
+	top: 0px;
+	background-color: pink;
+}
+.header{
+	background-color: black;
+	height: auto
+}
+/*LOGO*/
+.logo ul li{
+	display: inline-block;
+
+}
+#menu >a{
+	float: right;
+	margin-top: -40px;
+	margin-right: 500px;
+}
+
+/*thông tin cuối trang*/
+#botton{
+	width: 100%;
+	margin-top: 100px;
+	background-color: #242A37;
+	min-height: 100px;
+}
+#intro{
+	padding: 20px;
+	color:white;
+	text-align: center;
+	font-size: 30px;
+}
+#adress{
+	padding: 20px;
+	color:white;
+	font-size: 20px;
+}
+#phone {
+	padding: 10px;
+	color:white;
+font-size: 20px;
+}
+#mail {
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+}
+
+/* Popup form login */
+
+.btn-login{
+	width: 100px;
+	height: 40px;
+	border: 2px;
+	background-color: rgb(68, 41, 223);
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.btn-register{
+	width: 100px;
+	height: 40px;
+	border: 2px;
+	background-color: rgb(68, 41, 223);
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+
+
+.popup {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.popup-content {
+	height: 300px;
+	width: 500px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+}
+
+
+input {
+	margin: 15px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+    height: 25px;
+    margin-top: 20px;
+    border: 2px solid gray;
+	border-radius: 5px;
+    font-size: 18px;
+
+}
+.login{
+	width: 120px;
+	height: 50px;
+	border: 2px;
+	background-color: skyblue;
+	border-radius: 5px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+
+.nd{
+	padding-top: 150px;
+}
+
+.mnd :hover{
+	border: 1px solid skyblue;
+
+}
+.mnd{
+	/* width: 0px; */
+	float: right;
+	padding:10px;
+	/* margin-top: 400px; */
+	margin-right: 80px;
+	background-color: pink;
+
+	border: 1px;
+	border-style: solid;
+
+}
+.mnd ul{
+	list-style-type: none;
+	font-weight: bold;
+}

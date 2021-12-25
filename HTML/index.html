@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Trang chủ</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/index.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/tailieu.css">
+	<script src="../JS/dangnhap.js"></script>
+
+</head>
+<body>
+<div class="trangchu">
+	<div class="containter">
+		<div class="left">
+			<img src="..//IMG/logo1.png" id="logo">
+			</div>
+			<div class="infor">
+				<ul>
+					<li><a href="#">
+						Tưởng tượng sáng tạo - Lập Trình - Chia sẻ
+					</a></li>
+					<li><a href="#">
+						<button id="button" class="btn-login">Đăng nhập</button>
+					</a></li>
+					<li><a href="dangky1.html">
+						<button class="btn-register">Đăng ký</button>
+					</a></li>
+				</ul>
+		</div>
+	</div>
+	<div id="menu">
+		<ul>
+			<li><a href="index.html">Trang chủ</a></li>
+			<li><a href="#" id="khoahoc" >Khóa học</a>
+				<ul class="sub-menu" id="01">
+					<li><a href="#" >Scratch Cơ bản 1</a> 
+						<ul class="sub-menu1">
+							<li><a href="#" >Khối lệnh chuyển động</a></li>
+						</ul>
+					</li>
+					<li><a href="#" id="cb2">Scratch Cơ bản 2</a>
+						<ul class="sub-menu1">
+							<li><a href="#" >Khối lệnh âm thanh</a></li>
+							<li><a href="#" >Khối lệnh block </a></li>
+						</ul>
+					</li>
+					<li><a href="#">Scratch Nâng Cao 1</a>
+						<ul class="sub-menu1">
+							<li><a href="#" >Nhóm lệnh CONTROL</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Scratch Nâng Cao 2</a>
+						<ul class="sub-menu1">
+							<li><a href="#">Vận dụng </a></li>
+						</ul>
+				</ul>
+			</li>
+			
+			<li><a href="tailieu.html">Tài liệu</a>
+			</li>
+			<li><a href="index.html#botton">Liên hệ</a></li>
+		</ul>
+	</div>
+	<div class="popup">
+		<div class="popup-content">
+			<div class="close">+</div>
+			<h1>Đăng nhập</h1>
+			<input type="username" id="user" placeholder="Ten dang nhap">
+			<input type="password" id="pass" placeholder="Mat khau">
+			<button class="login" onclick="Login()">Đăng nhập</button>
+			<p>Chưa có tài khoản <a href="dangky1.html">Đăng ký tài khoản</a></p>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="slides_show">
+			<div class="slides">
+				<input type="radio" name="bottom" id="bottom_1" checked>
+				<input type="radio" name="bottom" id="bottom_2" >
+				<input type="radio" name="bottom" id="bottom_3" >
+				<input type="radio" name="bottom" id="bottom_4" >
+				<input type="radio" name="bottom" id="bottom_5" >
+				<div class="slide s1">
+					<img src="../IMG/banner.png" height="500px" width="100%">
+				</div>
+				<div class="slide">
+					<img src="../IMG/banner2.png" height="500px" width="100%">
+				</div>
+				<div class="slide">
+					<img src="../IMG/banner3.png" height="500px" width="100%">
+				</div>
+				<div class="slide">
+					<img src="../IMG/Scratch.png" height="500px" width="100%">
+				</div>
+				<div class="slide">
+					<img src="../IMG/banner6.png" height="500px" width="100%">
+				</div>
+				<div class="navigation">
+					<label for="bottom_1" class="bar"></label>
+					<label for="bottom_2" class="bar"></label>
+					<label for="bottom_3" class="bar"></label>
+					<label for="bottom_4" class="bar"></label>
+					<label for="bottom_5" class="bar"></label>
+				</div>
+			</div>
+			
+		</div><br>
+		<div class="see-pro" >
+
+			<div id="pro1">
+				<video src="../IMG/gioithieu1.mp4" controls="" width="100%"></video>
+				<b>Giới thiệu về lập trình Scratch</b>
+					
+			</div>
+			<div id="pro2">
+				<video src="../IMG/GT2.mp4" controls="" width="100%"></video>
+					<b>Giới thiệu ngôn ngữ lập trình Scratch</b>
+			</div>
+			<div id="pro3">
+				<video src="../IMG/Giới thiệu chung.mp4" controls="" width="100%"> </video>
+				<b>Giới thiệu chung về Scratch</b>
+			</div>
+			<div id="pro1">
+				<video src="../IMG/cài đặt1.mp4" controls="" width="100%"> </video>
+				<b>Hướng dẫn cài đặt Scratch(Phần 1)</b>
+					
+			</div>
+			<div id="pro2">
+				<video src="../IMG/cài đặt2.mp4" controls="" width="100%"> </video>
+				<b>Hướng dẫn cài đặt Scratch(Phần 2)</b>
+					
+			</div>
+			<div id="pro3">
+				<video src="../IMG/gioithieu3.mp4" controls="" width="100%"> </video>
+				<b>Hướng dẫn tạo tài khoản Scratch</b>
+					
+			</div>
+		</div>
+	</div>
+
+	<!-- Gioi thieu -->
+	<div class="introduce">
+		<div class="img">
+			<img src="../IMG/intro.png"  withalt="">
+		</div>
+		<div class="txt">
+			<h1>Giới thiệu khoá học</h1>
+			<ul>
+				<li><a href="#">Scratch Cơ Bản 1</a></li>
+				<li><a href="#">Scratch Cơ Bản 2</a></li>
+				<li><a href="#">Scratch Nâng Cao 1</a></li>
+				<li><a href="#">Scratch Nâng Cao 2</a></li>
+
+			</ul>
+		</div>
+	</div>
+
+	<div id="botton">
+		<div id="intro">
+			Cảm ơn các bạn đã đồng hành cùng khóa học của chúng tôi!
+		</div>
+		<div id="admin">
+			<img src="../IMG/team-icon.png" width="40px">
+			&nbsp;&nbsp;&nbsp; Hồ Thị Nhật Thùy - Phạm Thị Như Quỳnh
+		</div>
+		<div id="adress">
+			<img src="../IMG/1.png" width="20px">
+			&nbsp; &nbsp;&nbsp;136 Xuân Thủy, Cầu Giấy, Hà Nội
+		</div>
+		<div id="phone">
+			<img src="../IMG/3.png" width="20px">
+			&nbsp;&nbsp;&nbsp;Hotline: 0961634531
+		</div>
+		<div id="mail">
+			<img src="../IMG/2.png" width="30px">
+			&nbsp;&nbsp;&nbsp;hotrokythuat.scratch@gmail.com
+		</div>
+	</div>
+</body>
+<script>
+	document.getElementById('button').addEventListener("click", function() {
+		document.querySelector('.popup').style.display = 'flex';
+	});
+	document.getElementById('khoahoc').addEventListener("click", function() {
+		document.querySelector('.popup').style.display = 'flex';
+	});
+	document.getElementById('01').addEventListener("click", function() {
+		document.querySelector('.popup').style.display = 'flex';
+	});
+	
+	document.querySelector('.close').addEventListener("click", function() {
+	document.querySelector('.popup').style.display = "none";
+});
+	
+</script>
+</div>
+</html>

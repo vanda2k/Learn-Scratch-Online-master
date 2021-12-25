@@ -1,0 +1,165 @@
+.containter{
+	width: 100%;
+	height: 100px;
+	background-image: linear-gradient(#FACD68, #FC76C3); 
+
+}
+.left{
+	float: left;
+}
+#logo{
+	width: 100%;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.infor{
+	float: right;
+}
+.infor  ul li{
+	
+	display: inline-table;
+	padding: 30px;
+}
+.infor  ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	
+}
+.infor  ul li a img{
+	vertical-align: middle;}
+.name{
+	background-color: white;
+	color:black;
+}
+
+.btn-register{
+	width: 100px;
+	height: 40px;
+	border: 2px;
+	background-color: rgb(68, 41, 223);
+	border-radius: 5px;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+/* Cac khoa hoc */
+.see-pro{
+    float: left;
+    padding: 10px;
+    
+}
+.course1,.course2, .course3,.course4, .course5, .course6 {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    float: left;
+    padding: 50px;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+}
+  
+.course1:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+}
+.course2:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+}
+.course3:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+}
+.course4:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+}
+.course5:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+}.course6:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+} 
+.title {
+    position: absolute;
+    width: 500px;
+    left: 0;
+    top: 120px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    transition: top .5s ease;
+}
+  
+.course1:hover .title {
+    top: 90px;
+  }
+.course2:hover .title {
+    top: 90px;
+}
+.course3:hover .title {
+    top: 90px;
+}
+.course4:hover .title {
+    top: 90px;
+}
+.course5:hover .title {
+    top: 90px;
+}
+.course6:hover .title {
+    top: 90px;
+}
+
+  
+.button {
+    position: absolute;
+    width: 500px;
+    left:0;
+    top: 180px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  
+.button a {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+}  
+.course1:hover .button {
+    opacity: 1;
+}
+.course2:hover .button {
+    opacity: 1;
+}
+.course3:hover .button {
+    opacity: 1;
+}
+.course4:hover .button {
+    opacity: 1;
+}
+.course5:hover .button {
+    opacity: 1;
+}
+.course6:hover .button {
+    opacity: 1;
+}

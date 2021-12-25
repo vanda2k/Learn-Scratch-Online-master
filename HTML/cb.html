@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../CSS/cb.css">
+	<title>Khóa học cơ bản 1</title>
+</head>
+<body>
+	<div class="cb">
+	<div class="containter">
+		<div class="left">
+			<img src="..//IMG/logo1.png" id="logo">
+			</div>
+			<div class="infor">
+				<ul>
+					<li><a href="#">
+						Pham Thi Nhu Quynh
+					</a></li>
+					<li><a href="#">
+						<img src="../IMG/user.png" width="50px" height="50px" alt="">
+					</a></li>
+					<li><a href="../HTML/index.html">
+						<button class="btn-register">Đăng xuất</button>
+					</a></li>
+				</ul>
+			</ul>
+		</div>
+	</div>
+	<div class="noidung">
+		<div class="muc0">
+		<font color="red"><h1>Scratch cơ bản 1</h1></font>
+		</div>
+		<br>
+		<hr>
+		<div class="muc1">
+		<ul>
+			<li>Các thông báo </li>
+			<li>Link lớp học online</li>
+			<li>Danh sách lớp học</li>
+		</ul>
+		</div>
+		<b><hr></b>
+		<br>
+		<div class="muc2">
+		<p>Các bạn chuẩn bị trước 1 số thứ:</p>
+		
+		<ol>
+			<li>Giáo trình scratch</li>
+			<li>Sách bài tập scratch</li>
+			<li>Tài liệu tham khảo</li>
+		</ol>
+		</div>
+		<div class="video">
+		<video src="../IMG/scratch cơ bản 1.mp4" controls ></video>
+		</div>
+		<div class="tracnghiem">
+			<h2>Câu hỏi ôn tập</h2>
+		</div>
+		<div class="quiz">
+		<form name="quiz">
+		&nbsp;&nbsp;&nbsp;<b> 1. Scratch là gì?</b>
+		<ul> 
+		<input name="q1" type="radio" value="A" />A) Là tên gọi của một loại ngôn ngữ lập trình.<br>
+		<input name="q1" type="radio" value="B" />B) Một phần mềm Microsoft.<br>
+		<input name="q1" type="radio" value="C" />C) Một trang web.<br> 
+		<input name="q1" type="radio" value="D" />D) Một chương trình dùng để vẽ hình.<br>
+		
+		
+		<b> 2. Hình dưới đây theo bạn có bao nhiêu nhân vật?</b>
+		<ul> 
+			<div class="cau3">
+				<img src="../IMG/cau3.png">
+			</div>
+		<input name="q2" type="radio" value="A" />A) 1<br>
+		<input name="q2" type="radio" value="B" />B) 2<br>
+		<input name="q2" type="radio" value="C" />C) 3<br> 
+		<input name="q2" type="radio" value="D" />D) 4<br>
+		<b> 3. Bấm vào đâu để đổi tên nhân vật?</b>
+		<ul> 
+			<div class="cau2">
+				<img src="../IMG/cau2.png">
+			</div>
+		<input name="q3" type="radio" value="A" />A) Nút số 1<br>
+		<input name="q3" type="radio" value="B" />B) Nút số 2<br>
+		<input name="q3" type="radio" value="C" />C) Nút số 3<br> 
+		<input name="q3" type="radio" value="D" />D) Nút số 4<br>
+		</div>
+		<input onclick="getScore(this.form)" type="button" value="Xem kết quả" /><br> <input type="reset" value="Làm lại" /> <br>Điểm đạt được = <strong><input name="percentage" size="5" type="text" /></strong> </BR>
+		<script language="JavaScript">
+		// Số câu hỏi 
+		var numQues = 3;
+		//Số phương án trả lời 
+		var numChoi = 4;
+		//Số câu hỏi được hiển thị đáp án 
+		var answers = new Array(3);
+		// Đáp án đúng cho câu hỏi 
+		answers[0] = "A"; 
+		answers[1] = "A";
+		answers[2] = "A";
+
+		function getScore(form) {
+		var score = 0;
+		var currElt;
+		var currSelection;
+		for (i=0; i<numQues; i++) {
+			currElt = i*numChoi; 
+			for (j=0; j<numChoi; j++) {
+				currSelection = form.elements[currElt + j]; 
+				if (currSelection.checked) {
+				if (currSelection.value == answers[i]) {
+					score++; 
+					break;
+				}
+			}
+			}
+		}
+		score = Math.round(score/numQues*100); 
+		form.percentage.value = score + "%" ; 
+		var correctAnswers = "";
+		for (i=1; i<=numQues; i++) {
+			correctAnswers += i + ". " + answers[i-1] + "\r\n";
+		}
+		
+		}
+		</script>
+	</div>
+	<div id="botton">
+			<div id="intro">
+				Cảm ơn các bạn đã đồng hành cùng khóa học của chúng tôi!
+			</div>
+			<div id="adress">
+				<img src="../IMG/1.png" width="20px">
+				&nbsp; &nbsp;&nbsp;136 Xuân Thủy, Cầu Giấy, Hà Nội
+			</div>
+			<div id="phone">
+				<img src="../IMG/3.png" width="20px">
+				&nbsp;&nbsp;&nbsp;Hotline: 0961634531
+			</div>
+			<div id="mail">
+				<img src="../IMG/2.png" width="30px">
+				&nbsp;&nbsp;&nbsp;hotrokythuat.scratch@gmail.com
+			</div>
+
+		</div>
+	</ul>
+</ul></ul></form></div>
+</body>
+</html>
